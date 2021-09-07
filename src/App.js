@@ -45,6 +45,7 @@ export default function App({ $target }) {
     } else if (pathname.indexOf('/songsong-notion/documents/') === 0) {
       const [, , , id] = pathname.split('/')
       postsPage.render()
+      console.log(id)
       editPage.setState({ id })
     }
   }
