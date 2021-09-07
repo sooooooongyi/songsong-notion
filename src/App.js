@@ -16,7 +16,7 @@ export default function App({ $target }) {
     $target: $postsPageContainer,
     initialState: [],
     onClick: (id) => {
-      if(id === 'null') history.pushState(null, null, `/`)
+      if(id === 'null') history.pushState(null, null, `/songsong-notion/`)
       else history.pushState(null, null, `/songsong-notion/documents/${id}`)
       this.route()
     }
@@ -45,7 +45,6 @@ export default function App({ $target }) {
     } else if (pathname.indexOf('/songsong-notion/documents/') === 0) {
       const [, , , id] = pathname.split('/')
       postsPage.render()
-      console.log(id)
       editPage.setState({ id })
     }
   }
