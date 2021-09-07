@@ -17,7 +17,7 @@ export default function App({ $target }) {
     initialState: [],
     onClick: (id) => {
       if(id === 'null') history.pushState(null, null, `/`)
-      else history.pushState(null, null, `/documents/${id}`)
+      else history.pushState(null, null, `/songsong-notion/documents/${id}`)
       this.route()
     }
   });
