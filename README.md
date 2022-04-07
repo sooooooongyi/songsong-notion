@@ -6,7 +6,7 @@
 
 ## 배포
 
-- [API지원중단으로 정상적으로 작동하지 않습니다.](https://thddlmy.github.io/songsong-notion/)
+- [송송노션배포](https://thddlmy.github.io/songsong-notion/)
 
 ## 기술 스택
 
